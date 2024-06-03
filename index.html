@@ -70,16 +70,36 @@
         .download-button:hover {
             background-color: #45a049;
         }
+        .by-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .by-section img {
+            height: 30px;
+            margin: 0 10px;
+        }
+        .by-text {
+            font-size: 1.5rem;
+            color: #4CAF50;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="burkayHocamLinkedin.png" alt="Logo" id="logo">
+        <img src="burkayHocaLinkedin.png" alt="Logo" id="logo">
         <h1>Email Voyager</h1>
     </div>
     <div class="content">
         <p>Smart, Innovative and Cool Visualization of Gmail</p>
-        <h2>By Can Bulut & Tuna Özcan</h2>
+        <h2 class="by-text">By</h2>
+        <div class="by-section">
+            <img src="canBulutt.png" alt="Left Logo">
+            <h2 class="by-text">Can Bulut & Tuna Özcan</h2>
+            <img src="tuna.png" alt="Right Logo">
+        </div>
         <div class="video-section">
             <video controls>
                 <source src="video.mp4" type="video/mp4">
