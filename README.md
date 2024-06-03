@@ -3,7 +3,7 @@ CoolGmail
 
 InboxVoyager
 ------
-
+###### By Can Bulut & Tuna Özcan
 
 Here's our logo (hover to see the title text):
 
