@@ -1,7 +1,7 @@
 CoolGmail
 ======
 
-Alt-H2
+InboxVoyager
 ------
 
 
