@@ -74,9 +74,17 @@
             display: inline-block;
             margin-top: 2rem;
             margin-right: 1rem; /* Added margin-right for spacing */
+            position: relative;
         }
         .download-button:hover {
             background-color: #45a049;
+        }
+        .file-type {
+            font-size: 0.8rem;
+            color: grey;
+            position: absolute;
+            right: 1rem;
+            bottom: 0.5rem;
         }
         .by-section {
             display: flex;
@@ -134,8 +142,14 @@
         <div class="description">
             In the realm of email communication, managing conversations involving multiple participants has become increasingly complex. Our project aims to address this issue by developing an innovative email client that visualizes email threads in a more user-friendly and efficient manner. Motivated by the need to improve email communication, our solution leverages modern web technologies to create an intuitive email application.
         </div>
-        <a href="path/to/source/code.zip" class="download-button">Download Project Files</a>
-        <a href="path/to/poster.pdf" class="download-button">Download the Project's Poster</a>
+        <a href="path/to/source/code.zip" class="download-button">
+            Download Project Files
+            <span class="file-type">.zip</span>
+        </a>
+        <a href="path/to/poster.pdf" class="download-button">
+            Download the Project's Poster
+            <span class="file-type">.pdf</span>
+        </a>
     </div>
 </body>
 </html>
