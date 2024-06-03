@@ -6,35 +6,56 @@
     <title>Email Voyager</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
             text-align: center;
+            color: #333;
         }
         .header {
             background-color: #4CAF50;
             color: white;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .header img {
-            height: 50px;
+            height: 60px;
             vertical-align: middle;
             margin-right: 1rem;
         }
         .header h1 {
             display: inline;
-            font-size: 2rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
         }
         .content {
-            padding: 2rem;
+            padding: 3rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content p {
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+        .content h2 {
+            font-size: 1.75rem;
+            font-weight: bold;
+            margin: 2rem 0 1rem;
+            color: #4CAF50;
         }
         .video-section {
-            margin: 2rem 0;
+            margin: 3rem 0;
         }
         .video-section video {
-            width: 80%;
+            width: 100%;
+            max-width: 720px;
             height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
         .download-button {
             background-color: #4CAF50;
@@ -42,17 +63,23 @@
             padding: 1rem 2rem;
             text-decoration: none;
             border-radius: 5px;
+            font-size: 1.25rem;
+            display: inline-block;
+            margin-top: 2rem;
+        }
+        .download-button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
     <div class="header">
-    <img src="burkayHocamLinkedin.png" alt="Logo" id="logo">
-    <h1>Email Voyager</h1>
-</div>
+        <img src="burkayHocamLinkedin.png" alt="Logo" id="logo">
+        <h1>Email Voyager</h1>
+    </div>
     <div class="content">
-        <p>Smart, Innovative and Cool visulization of G-Mail</p>
-        <p>By<br>Can Bulut & Tuna Özcan</p>
+        <p>Smart, Innovative and Cool visualization of G-Mail</p>
+        <h2>By Can Bulut & Tuna Özcan</h2>
         <div class="video-section">
             <video controls>
                 <source src="video.mp4" type="video/mp4">
