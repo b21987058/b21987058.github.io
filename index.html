@@ -34,12 +34,15 @@
             display: flex;
             align-items: center;
         }
-        .content {
-            padding: 3rem 2rem;
-            max-width: 800px;
-            margin: 0 auto;
+        .section {
             background-color: #ADD8E6; /* Light blue */
             border-radius: 10px;
+            margin: 1rem 0;
+            padding: 1rem;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
         }
         .content p {
             font-size: 1.5rem;
@@ -50,11 +53,9 @@
         .content h2 {
             font-size: 1.75rem;
             font-weight: bold;
-            margin: 2rem 0 1rem;
             color: #333; /* Adjusted to ensure visibility */
         }
         .video-section {
-            margin: 3rem 0;
             background-color: #ADD8E6; /* Light blue */
             border-radius: 10px;
             padding: 1rem;
@@ -69,7 +70,6 @@
         .description {
             font-size: 1.25rem;
             color: #333; /* Adjusted to ensure visibility */
-            margin: 2rem 0;
             background-color: #ADD8E6; /* Light blue */
             border-radius: 10px;
             padding: 1rem;
@@ -100,7 +100,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 2rem;
             color: #333; /* Adjusted to ensure visibility */
             background-color: #ADD8E6; /* Light blue */
             border-radius: 10px;
@@ -117,7 +116,6 @@
         .instructor-text {
             font-size: 1.25rem;
             color: #333; /* Adjusted to ensure visibility */
-            margin-top: 1rem;
             text-align: center;
             background-color: #ADD8E6; /* Light blue */
             border-radius: 10px;
@@ -137,35 +135,41 @@
         <img src="InboxVoyagerLogo.png" alt="Right Header Logo" id="logo-right">
     </div>
     <div class="content">
-        <p>Smart, Innovative and Cool Visualization of Gmail</p>
-        <div class="by-container">
-            <h2 class="by-text">By</h2>
-            <div class="by-section">
-                <img src="canBulut.png" alt="Left Logo">
-                <h2 class="by-text">Can Bulut & Tuna Özcan</h2>
-                <img src="tuna.png" alt="Right Logo">
-            </div>
-            <div class="instructor-text">
-                Project Instructor: Assoc. Prof. Dr. Burkay Genç
+        <div class="section">
+            <p>Smart, Innovative and Cool Visualization of Gmail</p>
+        </div>
+        <div class="section">
+            <div class="by-container">
+                <h2 class="by-text">By</h2>
+                <div class="by-section">
+                    <img src="canBulut.png" alt="Left Logo">
+                    <h2 class="by-text">Can Bulut & Tuna Özcan</h2>
+                    <img src="tuna.png" alt="Right Logo">
+                </div>
+                <div class="instructor-text">
+                    Project Instructor: Assoc. Prof. Dr. Burkay Genç
+                </div>
             </div>
         </div>
-        <div class="video-section">
+        <div class="section video-section">
             <video controls>
                 <source src="video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-        <div class="description">
+        <div class="section description">
             In the realm of email communication, managing conversations involving multiple participants has become increasingly complex. Our project aims to address this issue by developing an innovative email client that visualizes email threads in a more user-friendly and efficient manner. Motivated by the need to improve email communication, our solution leverages modern web technologies to create an intuitive email application.
         </div>
-        <a href="InboxVoyagerSourceCode.zip" class="download-button">
-            Download Project Files
-            <span class="file-type">.zip</span>
-        </a>
-        <a href="InboxVoyagerPoster.pdf" class="download-button">
-            Download the Project's Poster
-            <span class="file-type">.pdf</span>
-        </a>
+        <div class="section">
+            <a href="InboxVoyagerSourceCode.zip" class="download-button">
+                Download Project Files
+                <span class="file-type">.zip</span>
+            </a>
+            <a href="InboxVoyagerPoster.pdf" class="download-button">
+                Download the Project's Poster
+                <span class="file-type">.pdf</span>
+            </a>
+        </div>
     </div>
 </body>
 </html>
